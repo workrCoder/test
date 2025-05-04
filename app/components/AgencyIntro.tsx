@@ -52,7 +52,7 @@ const AgencyIntro = () => {
           <span className="text-white">Digital, Creative & BTL</span>
           <br />
           <span className="text-white">Agency</span>
-          <span className="text-[#FFD700]">.</span>
+          <span className="text-[#c4af57]">.</span>
         </motion.h2>
 
         <motion.p
@@ -70,14 +70,14 @@ const AgencyIntro = () => {
         >
           <a 
             href="/portfolio" 
-            className="group relative overflow-hidden rounded-full px-8 py-3 w-48 bg-transparent border border-[#FFD700] text-[#FFD700] transition-colors hover:text-black"
+            className="group relative overflow-hidden rounded-full px-8 py-3 w-48 bg-transparent border border-[#c4af57] text-[#c4af57] transition-colors hover:text-black"
           >
             <span className="relative z-10">Portfolio</span>
-            <div className="absolute inset-0 bg-[#FFD700] transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100" />
+            <div className="absolute inset-0 bg-[#c4af57] transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100" />
           </a>
           <a 
             href="/contact" 
-            className="group relative overflow-hidden rounded-full px-8 py-3 w-48 bg-transparent border border-white/20 text-white transition-colors hover:text-[#FFD700]"
+            className="group relative overflow-hidden rounded-full px-8 py-3 w-48 bg-transparent border border-white/20 text-white transition-colors hover:text-[#c4af57]"
           >
             <span className="relative z-10">Contact</span>
             <div className="absolute inset-0 bg-black transform scale-x-0 origin-left transition-transform duration-300 ease-out group-hover:scale-x-100" />
@@ -89,11 +89,11 @@ const AgencyIntro = () => {
       <div className="absolute inset-0 pointer-events-none">
         <motion.div
           style={{ opacity: decorativeOpacity }}
-          className="absolute top-20 left-20 w-64 h-64 bg-[#FFD700] rounded-full blur-[100px]"
+          className="absolute top-20 left-20 w-64 h-64 bg-[#c4af57] rounded-full blur-[100px]"
         />
         <motion.div
           style={{ opacity: decorativeOpacity }}
-          className="absolute bottom-20 right-20 w-64 h-64 bg-[#FFD700] rounded-full blur-[100px]"
+          className="absolute bottom-20 right-20 w-64 h-64 bg-[#c4af57] rounded-full blur-[100px]"
         />
       </div>
     </section>

@@ -41,7 +41,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <motion.div variants={itemVariants}>
             <h3 className="text-2xl font-bold text-white mb-4">
-              Vizyn<span className="text-[#FFD700]">.</span>
+              Vizyn<span className="text-[#c4af57]">.</span>
             </h3>
             <p className="text-sm leading-relaxed">
               Digital solutions for the modern world. Creating meaningful experiences through design and technology.
@@ -53,22 +53,22 @@ const Footer = () => {
             <h4 className="text-white text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <motion.li variants={itemVariants}>
-                <a href="/about" className="text-sm hover:text-[#FFD700] transition-colors">
+                <a href="/about" className="text-sm hover:text-[#c4af57] transition-colors">
                   About Us
                 </a>
               </motion.li>
               <motion.li variants={itemVariants}>
-                <a href="/services" className="text-sm hover:text-[#FFD700] transition-colors">
+                <a href="/services" className="text-sm hover:text-[#c4af57] transition-colors">
                   Services
                 </a>
               </motion.li>
               <motion.li variants={itemVariants}>
-                <a href="/portfolio" className="text-sm hover:text-[#FFD700] transition-colors">
+                <a href="/portfolio" className="text-sm hover:text-[#c4af57] transition-colors">
                   Portfolio
                 </a>
               </motion.li>
               <motion.li variants={itemVariants}>
-                <a href="/contact" className="text-sm hover:text-[#FFD700] transition-colors">
+                <a href="/contact" className="text-sm hover:text-[#c4af57] transition-colors">
                   Contact
                 </a>
               </motion.li>
@@ -80,13 +80,13 @@ const Footer = () => {
             <h4 className="text-white text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
               <motion.li variants={itemVariants} className="text-sm">
-                <span className="text-[#FFD700]">Email:</span> hello@vizyn.com
+                <span className="text-[#c4af57]">Email:</span> hello@vizyn.com
               </motion.li>
               <motion.li variants={itemVariants} className="text-sm">
-                <span className="text-[#FFD700]">Phone:</span> +1 (555) 123-4567
+                <span className="text-[#c4af57]">Phone:</span> +1 (555) 123-4567
               </motion.li>
               <motion.li variants={itemVariants} className="text-sm">
-                <span className="text-[#FFD700]">Address:</span> Mexico City, Mexico
+                <span className="text-[#c4af57]">Address:</span> Mexico City, Mexico
               </motion.li>
             </ul>
           </motion.div>
@@ -102,10 +102,10 @@ const Footer = () => {
               © {currentYear} Vizyn. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <a href="/privacy" className="text-sm hover:text-[#FFD700] transition-colors">
+              <a href="/privacy" className="text-sm hover:text-[#c4af57] transition-colors">
                 Privacy Policy
               </a>
-              <a href="/terms" className="text-sm hover:text-[#FFD700] transition-colors">
+              <a href="/terms" className="text-sm hover:text-[#c4af57] transition-colors">
                 Terms of Service
               </a>
             </div>
