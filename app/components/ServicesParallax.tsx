@@ -24,9 +24,9 @@ const FeatureItem = ({ feature, delay }: { feature: string; delay: number }) => 
         whileInView={{ scale: 1 }}
         transition={{ type: "spring", stiffness: 300, delay: delay + 0.1 }}
         viewport={{ once: false, margin: "-50px" }}
-        className="h-1.5 w-1.5 bg-[#c4af57] rounded-full mr-3"
+        className="h-2 w-2 min-w-[8px] bg-[#c4af57] rounded-full mr-3 flex-shrink-0"
       />
-      <span className="text-white/80 group-hover:text-[#c4af57] transition-colors">
+      <span className="text-white/80 group-hover:text-[#c4af57] transition-colors text-base sm:text-lg">
         {feature}
       </span>
     </motion.div>
