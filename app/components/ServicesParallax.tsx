@@ -16,15 +16,16 @@ const FeatureItem = ({ feature, delay }: { feature: string; delay: number }) => 
       initial={{ opacity: 0, x: -20 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5, delay }}
-      viewport={{ once: false, margin: "-50px" }}
+      viewport={{ once: true, margin: "0px" }}
       className="flex items-center mb-4 group"
     >
       <motion.span 
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         transition={{ type: "spring", stiffness: 300, delay: delay + 0.1 }}
-        viewport={{ once: false, margin: "-50px" }}
+        viewport={{ once: true, margin: "0px" }}
         className="h-2 w-2 min-w-[8px] bg-[#c4af57] rounded-full mr-3 flex-shrink-0"
+        style={{ willChange: 'transform' }}
       />
       <span className="text-white/80 group-hover:text-[#c4af57] transition-colors text-base sm:text-lg">
         {feature}
